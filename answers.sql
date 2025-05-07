@@ -13,4 +13,4 @@ ON
 ORDER BY
     OrderID;
 
---
+-- 2NF (Second Normal Form)
