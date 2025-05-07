@@ -1,4 +1,4 @@
--- 
+-- 1NF (First Normal Form)
 
 SELECT
     OrderID,
@@ -12,3 +12,5 @@ ON
     LENGTH(Products) - LENGTH(REPLACE(Products, ',', '')) >= numbers.n - 1
 ORDER BY
     OrderID;
+
+--
